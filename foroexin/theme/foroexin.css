@@ -34,3 +34,25 @@
 	padding-left: 200px;
 	padding-top: 105px;
 }
+
+/* Do not show background on smaller screens, horizontal logo */
+@media all and (max-width: 800px) {
+	.headerbar .inner {
+		background-image: none;
+	}
+
+	#site-description {
+		min-height: auto;
+		min-width: auto;
+	}
+
+	#site-description h1, #site-description p {
+		display: none;
+	}
+
+	.imageset.site_logo {
+		background-image: url("./images/exin_castillos_logo.png");
+		padding-left: 250px;
+		padding-top: 50px;
+	}
+}

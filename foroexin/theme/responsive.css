@@ -7,3 +7,27 @@
     --------------------------------------------------------------
 */
 
+/* Logo and header background related changes for responsive layout */
+.headerbar .inner {
+	background-image: none;
+}
+
+#site-description {
+	min-height: auto;
+	min-width: auto;
+}
+
+#logo {
+	display: inline-block;
+	width: auto;
+}
+
+.imageset.site_logo {
+	background-image: url("./images/exin_castillos_logo.png");
+	padding-left: 250px;
+	padding-top: 50px;
+}
+
+#site-description h1 {
+	display: none;
+}
