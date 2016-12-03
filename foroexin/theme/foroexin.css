@@ -7,3 +7,30 @@
     --------------------------------------------------------------
 */
 
+/* Logo and header background related changes */
+.headerbar {
+	padding-bottom: 0px;
+}
+
+.headerbar .inner {
+	background-image: url('./images/exin_castillos_virtual.sm.gif');
+	background-repeat: no-repeat;
+	background-position: 210px bottom;
+	z-index:-1;
+}
+
+#site-description {
+	min-height: 170px;
+	min-width: 500px;
+}
+
+#logo {
+	width: 250px;
+	padding-bottom: 10px;
+}
+
+.imageset.site_logo {
+	background-image: url("./images/exin_castillos_logo.jpg");
+	padding-left: 200px;
+	padding-top: 105px;
+}
